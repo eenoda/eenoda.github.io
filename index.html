@@ -1,4 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR" %>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -9,6 +8,11 @@
 	<SCRIPT LAUNGUAGE='JAVASCRIPT'>                     // 자바 스크립트 시작
 		function test(){
 			alert("버튼을 클릭하셨습니다.");           // 실행코드
+		}
+	</SCRIPT>
+	<SCRITP LANGUAGE='C#'>
+		void test2(){
+			alert("버튼을 클릭하셨습니다.");
 		}
 	</SCRIPT>
 	<body>
@@ -23,10 +27,10 @@
 			Youtube : <a href="https://www.youtube.com/channel/UCBLn60jhZ079eKlxsBRhHew">Click Here</a> <--
 		</p>
 		<p>
-			"[Button / 버튼]"
+			[Button / 버튼]
 		</p>
 		<FORM>
-			<INPUT type='BUTTON' value='버튼' onclick='test()'>
+			<INPUT type='BUTTON' value='버튼' onclick='test2()'>
 		</FORM>
 	</body>
 </html>
