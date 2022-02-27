@@ -4,9 +4,9 @@ body {
   }
   
   a {
+    color: #ffffff;
     font-family: 'Pretendard-Thin';
-  text-decoration: none;
-  color: #ffffff;
+    text-decoration: none;
   }
   a:hover {
     font-family: 'Pretendard-Thin';
@@ -15,11 +15,6 @@ body {
   }
   
   h1{
-    text-align: center;
-    font-family: 'GL';
-    color:azure;
-  }
-  h2{
     text-align: center;
     font-family: 'GL';
     color:azure;
@@ -68,13 +63,13 @@ body {
   span {
       color: #E84127;
   }
-  .youtube {
+  .DoD {
     font-family: 'GB';
-      color: #F42721;
+      color: #ffffff;
   }
   .project {
     font-family: 'GB';
-      color: #ffeec8;
+      color: #ffffff;
   }
 
   
@@ -82,12 +77,11 @@ body {
       background-color: #161616;
   }
   
-  
   @font-face {
     font-family: 'GL';
-    src: url(fonts/GmarketSansTTFMedium.ttf) format('truetype');
+    src: url(fonts/GmarketSansTTFLight.ttf) format('truetype');
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
   }
   @font-face {
     font-family: 'Pretendard-Thin';

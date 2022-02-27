@@ -1,0 +1,44 @@
+<!doctype html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>EENODA!</title>
+</head>
+<SCRIPT LAUNGUAGE='JAVASCRIPT'>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+
+            var scroll = $(this).scrollTop();
+            var _scroll = -scroll/2.5;
+
+            $('.background').css({'transform' : 'translate3d(0,'+ -_scroll +'px,0)'})
+        });
+    });
+</SCRIPT>
+<body>
+    <nav class="navbar">
+        <div class="navbar_logo">
+            <a href="index.html"><b>EENODA</a>
+        </div>
+        <ul class="navbar_menu">
+            <li><a href="index.html"><span><b>메인페이지</b></span></a></li>
+            <li><a href="projects.html"><span><b>프로젝트들</b></span></a></li>
+        </ul>
+    </nav>
+        <img src="image/LOGO_B.png" class="background" style="margin-top: 75px;" width="100%">
+        <img src="image/Basic.png" width="100%" style="transform: translate3d(0, 550px, 1000px)">
+        <div style="margin-top: 200px; transform: translate3d(0, 0, 1001px);">
+          <h1>
+          <div class="DoD">Dungeon of <b>DEMON</b></div><br><br>
+          <h2>
+          Dungeon of DEMON is rogue-like base game!<br>
+          <a href="https://www.youtube.com/channel/UCgKCbBN2baLqStq1R7W-tFw" target="blank"> More... (Click) </a>
+        </h2>
+          </h1>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

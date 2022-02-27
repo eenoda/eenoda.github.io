@@ -1,51 +1,44 @@
 <!doctype html>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<html lang="ko">
 <head>
-  <meta charset="utf-8">
-  <title>
-    Happy EENODA SITE
-  </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>EENODA!</title>
 </head>
 <SCRIPT LAUNGUAGE='JAVASCRIPT'>
-  function veryNice_eenoda() {
-    alert("이스터 달걀2");
-  }
+    $(document).ready(function(){
+        $(window).scroll(function(){
 
-  function Hi() {
-    alert("welcome!!");
-  }
+            var scroll = $(this).scrollTop();
+            var _scroll = -scroll/2.5;
 
-  function button_1() {
-    alert("이스터 달걀!");
-  }
+            $('.background').css({'transform' : 'translate3d(0,'+ -_scroll +'px,0)'})
+        });
+    });
 </SCRIPT>
-
 <body>
-  <img src="https://github.com/eenoda/eenoda.github.io/blob/main/KEHSLD_LOGO.png?raw=true" width=70px>
-  <h1>
-    Hi! This is web site!
-  </h1>
-  <h2>
-    Main
-  </h2>
-  <h3>
-    Now : Dungeon of Demon - 55% <br> Next : Survival, Vast, Tree
-  </h3>
-  <h2>
-    TMI
-    </h3>
-    <h3>
-      E-Mail : eenoda777@gmail.com <br> 
-      Youtube : <a href="https://www.youtube.com/channel/UCgKCbBN2baLqStq1R7W-tFw"> Click Here <-- </a> <br>
-      Dungeon Of Demon : <a href="https://eenoda.github.io/DoD/"> PageLink <-- </a>
-    </h3>
-    <h2>
-      [Button / 버튼]
-    </h2>
-    <FORM>
-      This button is not work : <INPUT type='BUTTON' value='버튼' onclick='button_1()'>
-    </FORM>
-
+    <nav class="navbar">
+        <div class="navbar_logo">
+            <a href="index.html"><b>EENODA</a>
+        </div>
+        <ul class="navbar_menu">
+            <li><a href="index.html"><span><b>메인페이지</b></span></a></li>
+            <li><a href="projects.html"><span><b>프로젝트들</b></span></a></li>
+        </ul>
+    </nav>
+        <img src="image/LOGO_B.png" class="background" style="margin-top: 75px;" width="100%">
+        <img src="image/Basic.png" width="100%" style="transform: translate3d(0, 550px, 1000px)">
+        <div style="margin-top: 200px; transform: translate3d(0, 0, 1001px);">
+          <h1>
+          <div class="youtube">YOUTUBE</div>
+          <h2><a href="https://www.youtube.com/channel/UCgKCbBN2baLqStq1R7W-tFw" target="blank">Click Here! </a></h2></h1><br><br>
+          <h1>
+          <div class="project">Projects</div>
+          <h2><a href="projects.html"> Click Here!! </a></h2>
+          </h1>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
-
 </html>
